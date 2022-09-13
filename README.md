@@ -1,75 +1,80 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> Description the project.
-
+# Math Magicians
+The first part of the react Math Magicians project.
 
 ## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Major languages: CSS and JavaScript
+- Frameworks: ReactJS
+- Technologies used: Linters, Git, npm, Webpack
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+
+You should be having [Node.js](https://nodejs.org/en/) installed on your computer
+
 
 ### Setup
 
-### Install
+To get a local copy up and running follow these simple example steps.
 
-### Usage
+1. Navigate to a folder where you want the cloned file to appear
 
-### Run tests
+2. Clone this repo in your terminal or git bash using the command
 
-### Deployment
+   `git@github.com:Mukumbuta/Math-Magicians-React-App.git`
+
+3. run `npm install ` to install all the necessary dependencies including the linters and webpack
+
+4. Navigate to the folder called Leaderboard and open this project using your editor
+
+5. You run `npm run start` to start the local server on port 3000
+
+6. You also run `npm run build` to build your project
 
 
+### Run tests (For the linters added)
 
-## Authors
+Run the following commands on your terminal:
 
-👤 **Author1**
+- CSS/SCSS, run `npx stylelint "**/*.{css,scss}"`
+- Javascript `npx eslint .`
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+## Live demo
+- Link: 
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Deployment
+- Deployed using GitHub Pages
+- Link: N/A
+
+## Author
+
+👤 **Emmanuel Simasiku**
+- GitHub: [@githubhandle](https://github.com/Mukumbuta)
+- Twitter: [@twitterhandle](https://twitter.com/Mukumbuta8)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mukumbuta)
 
 ## 🤝 Contributing
-
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
+Give a ⭐️ if you like this project!
 
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
+- Hat tip to anyone whose code snippet was used for...
 - Inspiration
 - etc
 
 ## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
