@@ -12,7 +12,7 @@ const Calculator = () => {
 
   const clickHandler = (e) => {
     setCalcData(calculate(CalcData, e.target.textContent));
-  }
+  };
 
   const { total } = CalcData;
 
