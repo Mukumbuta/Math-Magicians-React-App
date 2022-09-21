@@ -1,15 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
-import Calc from './Components/Calculator.js';
+import Calculator from './Components/Calculator';
 import Home from './Pages/Home';
 import Quote from './Pages/Quotes';
-import Nav from './Components/Navbar.js';
+import Navbar from './Components/Navbar';
 
 const App = () => (
   <div className="App">
-    <Nav />
+    <Navbar />
     <Routes>
       <Route exact path="/home" element={<Home />} />
-      <Route exact path="/calculator" element={<Calc />} />
+      <Route exact path="/calculator" element={<Calculator />} />
       <Route exact path="/quotes" element={<Quote />} />
     </Routes>
   </div>
