@@ -18,6 +18,7 @@ const Calculator = () => {
 
   return (
     <div className="calc-frame">
+      <h1>Let&apos;s do some math!</h1>
       <div className="main-calc">
         <Display value={total || '0'} />
         <div className="btn-row">
