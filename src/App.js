@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Calculator from './components/Calculator';
-import Home from './pages/Home';
-import Quote from './pages/Quotes';
+import Home from './routes/Home';
+import Quote from './routes/Quotes';
 import Navbar from './components/Navbar';
 
 const App = () => (
