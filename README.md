@@ -47,8 +47,9 @@ Run the following commands on your terminal:
 - Link: 
 
 ## Deployment
-- Deployed using GitHub Pages
-- Link: N/A
+- Deployed to netlify.com
+- Link: https://632f3f4ef8a44b411faa56f5--isnt-mukumbuta-awesome.netlify.app
+
 
 ## Author
 
